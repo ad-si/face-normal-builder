@@ -1,6 +1,6 @@
 {
   "name": "face-normal-builder",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Transform-stream which calculates and fixes the normals of a jsonl stream of faces",
   "main": "build/index.js",
   "bin": "cli/index.js",

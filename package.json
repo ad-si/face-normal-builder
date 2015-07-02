@@ -1,0 +1,33 @@
+{
+  "name": "face-normal-builder",
+  "version": "0.0.0",
+  "description": "Transform-stream which calculates and fixes the normals of a jsonl stream of faces",
+  "main": "build/index.js",
+  "bin": "cli/index.js",
+  "scripts": {
+    "build": "coffee -c -o build source",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brickify/face-normal-builder.git"
+  },
+  "keywords": [
+    "face-normal",
+    "transform-stream"
+  ],
+  "author": "Adrian Sieber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brickify/face-normal-builder/issues"
+  },
+  "homepage": "https://github.com/brickify/face-normal-builder#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  },
+  "dependencies": {
+    "ndjson": "^1.4.1",
+    "triangle-normal": "0.0.0",
+    "yargs": "^3.14.0"
+  }
+}
